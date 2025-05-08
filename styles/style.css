@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    padding: 40px 20px 20px;
+}
+
+header img {
+    width: 120px;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+p.slogan {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+.button img {
+    width: 24px;
+    height: 24px;
+}
+
+.platform-info {
+    margin-top: 10px;
+    color: #888;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.platform-info .platform-icon {
+    width: 20px;
+    height: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+ul.features {
+    list-style: none;
+    padding: 0;
+}
+
+ul.features li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 30px 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+a.producthunt {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #da552f;
+    font-size: 18px;
+}
